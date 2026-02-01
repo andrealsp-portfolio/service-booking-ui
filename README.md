@@ -23,7 +23,11 @@ Frontend application responsible for user interaction with the authentication sy
 
 ## Navigation Notes
 
-User can navigate through Home, Services and Appointments pages. Some pages are placeholders and not fully implemented.
+User can navigate through Home, Services and Appointments pages.
+
+These pages are currently placeholders and were intentionally kept minimal,
+as the focus of this project is the authentication flow and secure
+frontend–backend integration.
 
 ## Features
 
@@ -76,9 +80,36 @@ User can navigate through Home, Services and Appointments pages. Some pages are 
 - No global state management
 - Placeholder pages
 
-## Installation
+## Prerequisites
+
+To run this application locally, you will need:
+
+- Node.js (version 18 or higher recommended)
+- npm or compatible package manager
+- Backend API running and accessible
+
+## Install
 
 ```bash
+
 npm install
-npm run dev
+npm start
+
 ```
+
+## Backend Dependency
+
+This frontend application depends on the [backend authentication API](https://github.com/andrealsp-portfolio/service-booking-api) to be running and accessible.
+
+The following backend capabilities are required:
+
+- User registration
+- User authentication (login)
+- JWT token validation
+
+By default, the frontend expects the backend API to be available at:
+
+http://localhost:8081
+
+The port configuration reflects the local development setup
+used during this project.
