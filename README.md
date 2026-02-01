@@ -76,9 +76,35 @@ User can navigate through Home, Services and Appointments pages. Some pages are 
 - No global state management
 - Placeholder pages
 
-## Installation
+## Prerequisites
+
+To run this application locally, you will need:
+
+- Node.js (version 18 or higher recommended)
+- npm or compatible package manager
+- Backend API running and accessible
+
+## Install
 
 ```bash
+
 npm install
-npm run dev
+npm start
+
 ```
+
+## Backend Dependency
+
+This frontend application depends on the [backend authentication API](https://github.com/andrealsp-portfolio/service-booking-api) to be running and accessible.
+
+The following backend capabilities are required:
+
+- User registration
+- User authentication (login)
+- JWT token validation
+
+By default, the frontend expects the backend API to be available at:
+
+http://localhost:8081
+
+This can be adjusted using environment-based configuration if needed.
