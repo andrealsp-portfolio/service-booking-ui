@@ -45,7 +45,7 @@ function AppContent() {
         const response = await fetch(
           "http://localhost:8081/nexus/v1/auth/validateToken",
           {
-            method: "POST",
+            method: "GET",
             headers: {
               "Content-Type": "application/json",
               Authorization: token.startsWith("Bearer ")

@@ -88,8 +88,6 @@ To run this application locally, you will need:
 - npm or compatible package manager
 - Backend API running and accessible
 
-## Install
-
 ## Prerequisites
 
 To run this application locally, you will need:
